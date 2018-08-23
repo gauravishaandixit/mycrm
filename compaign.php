@@ -1,0 +1,11 @@
+<?php
+	session_start();
+	if($_SESSION["logged"]==true)
+  	{
+      $msg=$_SESSION["Name"];
+  	}
+  	else
+    	header("location:index.php");
+    require("conection/connect.php");
+    include("navigationbar.php");
+?>

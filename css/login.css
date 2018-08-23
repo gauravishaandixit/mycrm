@@ -1,0 +1,39 @@
+body{
+	background:#b5e2e8;
+	font-family:Georgia, seri;
+	size:12px;
+	margin:0;
+	padding:0;
+}
+#msg{
+	widows:490px; height: 20px;
+	padding: 90px 0 115px 0;
+	text-align:center;
+	color:#000;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display:block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: #111;
+}
